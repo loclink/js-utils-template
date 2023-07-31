@@ -7,8 +7,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc && vite build",
-    "build:docs": "node ./docs/typedoc.js",
-    "dev:docs": "vitepress dev docs",
+    "build:docs": "node ./docs/typedoc.js && vitepress build docs",
+    "dev:docs": "node ./docs/typedoc.js && vitepress dev docs",
     "release": "dotenv release-it",
     "test": "vitest",
     "test:ui": "vitest --ui"
@@ -36,8 +36,5 @@
     "vitepress": "1.0.0-beta.6",
     "vitest": "^0.33.0",
     "vue": "^3.3.4"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
   }
 }

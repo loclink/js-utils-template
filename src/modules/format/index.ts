@@ -1,7 +1,7 @@
 import { Status } from '../../enums';
 import { IUserInfo } from './types';
 /**
- * 格式化用户信息
+ * ### 格式化用户信息
  * @example
  * 以这个方法为例定义一个例子，在这里你可以直接使用markdown语法来对方法描述一些示例
  * ```ts
@@ -22,7 +22,7 @@ export const formatUserInfo = (userInfo: IUserInfo) => {
 };
 
 /**
- * 根据订单状态值返回订单描述信息
+ * ### 根据订单状态值返回订单描述信息
  * @group 格式化方法
  * @param status 订单状态值
  * @returns

@@ -2,6 +2,7 @@
 const TypeDoc = require('typedoc');
 const path = require('path');
 const fs = require('fs');
+
 // 根目录
 function rootPath(...args) {
   return path.join(__dirname, '..', ...args);

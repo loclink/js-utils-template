@@ -1,10 +1,11 @@
 /**
- *  计算两数之和
+ * ### 计算两数之和
  * @group 计算方法
  * @param num1 第一个加数
  * @param num2 第二个加数
  * @returns
- * @example
+ *
+ * ### 示例：
  * ``` ts
  * countSum(10, 10) // => 20
  * ```
