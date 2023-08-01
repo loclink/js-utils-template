@@ -2,7 +2,7 @@
 
 ## 概述：
 
-开箱即用的 javascript 工具库开发模板
+开箱即用的 javascript 工具库开发模板。
 
 ## 特征：
 
@@ -11,7 +11,7 @@
 - 使用 release-it 实现一键发布，并自动生成 CHANGELOG 日志文件。
 - 集成了 vitest，使单元测试变得更简单。
 
-## 开始使用：
+## 快速开始：
 
 📦 打包工具库：
 
@@ -37,6 +37,8 @@ npm run dev:docs
 npm run test
 ```
 
+所有测试用例代码都应存放在 test 目录下，且文件名命名规则需要以 `.spec.ts` 作为结尾。
+
 启动测试可视化 ui
 
 ```sh
@@ -50,4 +52,5 @@ npm run release
 ```
 
 ## LICENSE
+
 [MIT](/LICENSE)
