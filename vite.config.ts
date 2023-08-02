@@ -3,7 +3,7 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   build: {
     lib: {
-      entry: './src/modules/index.ts',
+      entry: './src/index.ts',
       name: 'JsUtils',
       fileName: format => `index.${format === 'umd' ? 'min.js' : 'js'}`
     },
